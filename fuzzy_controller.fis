@@ -4,7 +4,7 @@ Type='mamdani'
 Version=2.0
 NumInputs=1
 NumOutputs=1
-NumRules=6
+NumRules=5
 AndMethod='min'
 OrMethod='max'
 ImpMethod='min'
@@ -13,23 +13,23 @@ DefuzzMethod='centroid'
 
 [Input1]
 Name='error'
-Range=[-0.25 0.25]
+Range=[-0.2 0.2]
 NumMFs=5
-MF1='NG':'trimf',[-0.375 -0.25 -0.125]
-MF2='NP':'trimf',[-0.25 -0.125 0]
-MF3='ZE':'trimf',[-0.125 0 0.125]
-MF4='PP':'trimf',[0 0.125 0.25]
-MF5='PG':'trimf',[0.125 0.25 0.375]
+MF1='NG':'trimf',[-0.3 -0.2 -0.1]
+MF2='NP':'trimf',[-0.2 -0.1 0]
+MF3='ZE':'trimf',[-0.1 0 0.1]
+MF4='PP':'trimf',[0 0.1 0.2]
+MF5='PG':'trimf',[0.1 0.2 0.3]
 
 [Output1]
 Name='giro'
-Range=[-20 20]
+Range=[-10 10]
 NumMFs=5
-MF1='NG':'trimf',[-30 -20 -10]
-MF2='NP':'trimf',[-20 -10 0]
-MF3='ZE':'trimf',[-10 0 10]
-MF4='PP':'trimf',[0 10 20]
-MF5='PG':'trimf',[10 20 30]
+MF1='NG':'trimf',[-15 -10 -5]
+MF2='NP':'trimf',[-10 -5 0]
+MF3='ZE':'trimf',[-5 0 5]
+MF4='PP':'trimf',[0 5 10]
+MF5='PG':'trimf',[5 10 15]
 
 [Rules]
 1, 5 (1) : 1
@@ -37,4 +37,3 @@ MF5='PG':'trimf',[10 20 30]
 3, 3 (1) : 1
 4, 2 (1) : 1
 5, 1 (1) : 1
-1, 5 (1) : 1
