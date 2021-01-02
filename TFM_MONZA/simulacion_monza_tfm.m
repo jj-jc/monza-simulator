@@ -1,6 +1,6 @@
 %%
 
-load('dificultad1.mat');
+load('dificultad2.mat');
 load('circulos.mat');
 giro_simu=giro_m;
 ma=cos(giro_simu);

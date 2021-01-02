@@ -30,12 +30,12 @@ switch Nivel
     case 1
         %Nivel 1
         %Puntos de caída correctos
-        x1d = 0;
-        x2i = 0;
-        x3d = 0;
-        x4i = 0;
-        x5d = 0;
-        x6i = 0;
+        x1d = 0.001;
+        x2i = -0.001;
+        x3d = 0.001;
+        x4i = -0.001;
+        x5d = 0.001;
+        x6i = -0.001;
         x7d = -0.02554;
     case 2
         %Nivel 2
