@@ -1,6 +1,6 @@
 %%
 
-load('dificultad3.mat');
+load('dificultad1.mat');
 load('circulos.mat');
 giro_simu = -out.giro_m;
 %giro_simu = giro_m;
